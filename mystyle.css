@@ -1,0 +1,91 @@
+body{
+    font-family: Arial;
+    background-color: burlywood;
+    font-size: medium;
+    
+}
+
+.header{
+   /* display: flex; */
+    padding: 1em;
+} 
+.header h1 {
+    float:left;
+    padding: 2em;
+} .city{
+    padding: 1em;
+    display: flex;
+    
+
+}
+.foreignLanguage,tr,td,th{
+border: 4px solid black;
+margin: auto;
+border-collapse: collapse;
+
+
+}
+.museum{
+    display: flex;
+    padding: 1em;
+    
+    
+
+}
+.cityhall{
+    display: flex;
+    padding: 1em;
+    
+    
+}
+.castleOf{
+    display: flex;
+    padding: 3px;
+ 
+}
+
+@media(min-width :800px){
+    .hestoricplaces{
+    padding: 2px;
+    display: flex;
+        
+    }
+}
+
+.museumphoto{
+    width: 100%;
+    padding-left: 2px;
+}
+.hallphoto{
+    
+    padding-right: 2px;
+}
+.castleOfphoto{
+    
+    padding-right: 1px;
+}
+.castleOfInfo p{
+    padding-left: 1px;
+    
+}
+.hallInfo p{
+    padding-left: 1px;
+
+}
+.museum, .castleOf{
+    display: flex;
+    padding: 2px;
+}
+.tablephoto{
+    margin-left: 40%;
+}
+
+.cityName p{
+    padding-left: 5px;
+}
+@media(max-width:800px){
+.img2{
+    order: -1;
+    padding-right: 15px;
+}
+}
